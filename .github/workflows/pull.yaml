@@ -6,6 +6,17 @@ on:
 
 jobs:
   pull:
+    permissions:
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      issues: write
+      packages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+    statuses: write
     runs-on: ubuntu-latest
 
     steps:
@@ -19,15 +30,14 @@ jobs:
         GIT_NAME: ${{ secrets.GIT_NAME }}
         GIT_MAIL: ${{ secrets.GIT_MAIL }}
         REPO_OWNER: ${{ github.repository_owner }}
-        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-
       run: |
         cd ${GITHUB_WORKSPACE}
 
         # コミットのためのgitの設定
         echo 'git initialize'
-        git config --global user.name "akinami3"
-        git config --global user.email "akinami327@github.com"
+        git config --global user.name "${GIT_NAME}"
+        git config --global user.email "${GIT_MAIL}"
+        git remote set-url origin "https://${REPO_OWNER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         echo 'gimonfu initialize'
 
         # gimonfuの初期設定
