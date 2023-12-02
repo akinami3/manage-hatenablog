@@ -27,7 +27,7 @@ jobs:
         echo 'git initialize'
         git config --global user.name "${GIT_NAME}"
         git config --global user.email "${GIT_MAIL}"
-        git remote set-url origin "https://${GIT_NAME}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git remote set-url origin "https://github.com/akinami3/manage-hatenablog.git"
         echo 'gimonfu initialize'
 
         # gimonfuの初期設定
