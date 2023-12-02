@@ -18,6 +18,7 @@ jobs:
         HATENA_API_KEY: ${{ secrets.HATENA_API_KEY }}
         GIT_NAME: ${{ secrets.GIT_NAME }}
         GIT_MAIL: ${{ secrets.GIT_MAIL }}
+        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
         REPO_OWNER: ${{ github.repository_owner }}
       run: |
         cd ${GITHUB_WORKSPACE}
