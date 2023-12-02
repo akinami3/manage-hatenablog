@@ -19,6 +19,7 @@ jobs:
         GIT_NAME: ${{ secrets.GIT_NAME }}
         GIT_MAIL: ${{ secrets.GIT_MAIL }}
         REPO_OWNER: ${{ github.repository_owner }}
+        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
       run: |
         cd ${GITHUB_WORKSPACE}
 
