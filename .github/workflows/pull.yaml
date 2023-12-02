@@ -24,9 +24,9 @@ jobs:
 
         # コミットのためのgitの設定
         echo 'git initialize'
-        git config --global user.name "${GIT_NAME}"
-        git config --global user.email "${GIT_MAIL}"
-        git remote set-url origin "https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}"
+        git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+        git config --global user.name "${GITHUB_ACTOR}"
+        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         echo 'gimonfu initialize'
 
         # gimonfuの初期設定
