@@ -16,7 +16,7 @@ jobs:
       pull-requests: write
       repository-projects: write
       security-events: write
-    statuses: write
+      statuses: write
     runs-on: ubuntu-latest
 
     steps:
