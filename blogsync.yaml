@@ -1,5 +1,0 @@
-akinami327.hatenablog.com:
-  username: akinami327
-  password: $HATENA_API_KEY
-default:
-  local_root: entries
