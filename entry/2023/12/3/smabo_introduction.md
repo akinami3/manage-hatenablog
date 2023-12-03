@@ -21,6 +21,8 @@ draft: false
 
 <br>
 
+[https://github.com/akinami3/smabo:embed:cite]
+
 本記事では、
 
 - smaboの概要
