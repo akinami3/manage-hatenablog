@@ -58,3 +58,8 @@ jobs:
         fi
 
         git push origin HEAD:main
+
+    - uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        message: 変更をコミット
