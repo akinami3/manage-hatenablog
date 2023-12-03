@@ -10,6 +10,6 @@ draft: false
 
 テスト
 
-![Alt text](https://akinami3.github.io/manage-hatenablog/images/image.png)
+![Alt text](https://akinami3.github.io/manage-hatenablog/images/test/image.png)
 
-![Alt text](https://akinami3.github.io/manage-hatenablog/images/image2.png)
+![Alt text](https://akinami3.github.io/manage-hatenablog/images/test/image2.png)
