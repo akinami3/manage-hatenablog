@@ -20,6 +20,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+  - uses: peaceiris/actions-gh-pages@v3
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      publish_dir: images
+      keep_files: true
+      cname: pages.mkizka.dev
+
+  - uses: actions-js/push@master
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      message: 変更をコミット
+
     - uses: actions/checkout@v2
 
     - name: Deploy and Commit
