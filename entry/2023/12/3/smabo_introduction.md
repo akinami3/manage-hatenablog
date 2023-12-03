@@ -8,6 +8,11 @@ id: "6801883189063756288"
 draft: false
 ---
 
+<div style="padding: 1em; background-color: #DFF2BF; border-left: 6px solid #4F8A10; margin: 1em 0; border-radius: 5px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);">
+    <h5 style="font-size: 15px; font-weight: bold; margin: 0 0 5px 0;"></h5>
+    <p style="margin: 0;"><a href="https://qiita.com/akinami/items/eb0741b0d9c322e5d5ec">qiitaでは、ロボティクスの理論についてpythonコード付で解説してます。</a>よろしければ、こちらもご覧ください。</p>
+</div>
+
 
 お疲れ様です。秋波です。
 
@@ -229,7 +234,3 @@ smaboでは、様々なことが出来るので項目別で「必要な部品」
 <br>
 記事を公開次第、本ページの「smabo関連記事」の章も随時更新していくので、定期的にこのページを覗きに来てくださると幸いです。
 
-<div style="padding: 1em; background-color: #DFF2BF; border-left: 6px solid #4F8A10; margin: 1em 0; border-radius: 5px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);">
-    <h5 style="font-size: 15px; font-weight: bold; margin: 0 0 5px 0;"></h5>
-    <p style="margin: 0;"><a href="https://qiita.com/akinami/items/eb0741b0d9c322e5d5ec">qiitaでは、ロボティクスの理論についてpythonコード付で解説してます。</a>よろしければ、こちらもご覧ください。</p>
-</div>
