@@ -1,7 +1,11 @@
 ---
 title: スマートフォンが入るロボットの作り方【smabo】
+date: 2023-12-03T09:02:45.988Z
+categories:
+  - smabo
+  - robotics
+id: "6801883189063756288"
 draft: false
-categories: ["smabo","robotics"]
 ---
 お疲れ様です。秋波です。
 
